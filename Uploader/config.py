@@ -55,7 +55,7 @@ class Config(object):
     TG_MAX_FILE_SIZE = 4194304000
 
     # Chunk size that should be used with requests
-    CHUNK_SIZE = int(os.environ.get("CHUNK_SIZE", 128))
+    CHUNK_SIZE = int(os.environ.get("CHUNK_SIZE", 12898))
     # Proxy for accessing youtube-dl in GeoRestricted Areas
     # Get your own proxy from https://github.com/rg3/youtube-dl/issues/1091#issuecomment-230163061
     HTTP_PROXY = os.environ.get("HTTP_PROXY", "")
