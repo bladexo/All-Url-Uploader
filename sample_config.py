@@ -36,11 +36,11 @@ class Config(object):
     ADL_BOT_RQ = {}
     CHUNK_SIZE = 128
     TG_MAX_FILE_SIZE = 4194304000
-    HTTP_PROXY = ""
+    HTTP_PROXY = "103.160.207.49:32650"
     PROCESS_MAX_TIMEOUT = 3700
 
     # TG Ids
-    LOG_CHANNEL = -1007119867241
+    LOG_CHANNEL = -1002145757837
     OWNER_ID = 6434260634
 
     # bot username without @
